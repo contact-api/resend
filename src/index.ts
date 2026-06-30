@@ -1,5 +1,5 @@
 import { Resend } from "resend";
-import type { EmailProvider, EmailPayload } from "@contact-api/core/types.js";
+import type { EmailProvider, EmailPayload } from "@contact-api/core/types";
 
 export class ResendProvider implements EmailProvider {
   readonly id = "resend";

@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { Resend } from "resend";
-import type { EmailPayload } from "@contact-api/core/types.js";
+import type { EmailPayload } from "@contact-api/core/types";
 import { createResendProvider, ResendProvider } from "../src/index.js";
 
 vi.mock("resend", () => {

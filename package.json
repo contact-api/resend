@@ -1,0 +1,27 @@
+{
+  "name": "@contact-api/resend",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Resend email provider for @contact-api/core",
+  "author": "Mason L'Etoile",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@contact-api/core": "github:contact-api/core",
+    "resend": "^6.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@vitest/coverage-v8": "^4.1.9",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
+  }
+}
