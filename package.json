@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@contact-api/core": "github:contact-api/core",
+    "@contact-api/core": "0.0.1",
     "resend": "^6.9.3"
   },
   "devDependencies": {
