@@ -1,6 +1,9 @@
 # Contact API Resend
 Resend email provider for `@contact-api/core`.
 
+[![CI](https://github.com/contact-api/resend/actions/workflows/ci.yml/badge.svg)](https://github.com/contact-api/resend/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+
 ## Usage
 ```ts
 import { createResendProvider } from "@contact-api/resend";
